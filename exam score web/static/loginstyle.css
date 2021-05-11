@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.background{
+    background:url('../static/2016_Instructional_Centre-18EDIT.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+
+.content header{
+    font-size:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: honeydew;
+    margin:0 0 40px 0;
+}
+
+.content{
+    position:absolute;
+    top:30%;
+    left:46%;
+    text-align:center;
+    background:rgba(0,0,0,0.5);
+    padding:80px 40px; 
+    box-shadow:-1px 3px 28px 0px rgba(0,0,0,0.75);
+}
+
+.field1{
+    position:relative;
+    height:30px;
+    width:100%;
+    display:flex;
+}
+
+.field2{
+    position:relative;
+    top:10px;
+}
+
+.field2 input{
+    height:100%;
+    width:100%;
+    text-align: center;
+    font-size: large;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+.signup a{
+    font-size:x-small;
+    color: lightcyan;
+    text-decoration:none;
+    text-align: left;
+}
+
+.signup:hover a{
+    text-decoration: underline;
+}
+
+.info p{
+    font-size: xx-small;
+    color: white;
+    }
+
+.field1 p{
+    font-size: xx-small;
+    font-style: italic;
+    color:red;
+}

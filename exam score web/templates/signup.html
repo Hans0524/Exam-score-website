@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/loginstyle.css" type="text/css">
+    <title>signup Page</title>
+        
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <header>Sign Up</header>
+            <form action = "/signuppro" method = "POST">
+                <div class="field1">
+                    <input type="text" name="Account" placeholder="Accout Name">
+                </div>
+                <div class="field1">
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <div class="field1">
+                    <select name='Type'>
+                    <option value="student">student</option>
+                    <option value="instructor">instructor</option>
+					</select>
+                </div>
+                <div class="field1">
+                    <p>{{ message }}</p>
+                </div>
+                
+                <div class="field2">
+                    <input type="submit" value="Sign up">
+                </div>
+                    
+            </form>
+
+        </div>
+    </div>
+        
+</body>
+</html>

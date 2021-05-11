@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/studentgrade.css">
+    <title>Grade Page(student version)</title>
+</head>
+<body>
+    <div class="background">
+        <form action="/getback" method="POST">
+            <div class="gback">
+                <input type="submit" value="Back to Main Menu">
+            </div>
+        </form>
+        <form action="/logout" method="POST">
+            <div class="logoutbutton">
+                <input type="submit" value="Log out account">
+            </div>
+        </form>
+            
+        <div class="content">
+            
+            
+        <form action="/updatestudentmark" method="POST">
+            </p>
+            <div class="studentname">
+                <input type="text" name="studentname" placeholder="type studentname">
+                <p>{{warning}}</p>
+            </div>
+
+            <div class="selectbox">
+            <select name="test">
+                <option value="quiz1">QUIZ1</option>
+                <option value="quiz2">QUIZ2</option>
+                <option value="quiz3">QUIZ3</option>
+                <option value="midtermexam">MIDTERM</option>
+                <option value="finalexam">FINAL</option>
+            </select>
+            </div>
+            <h3>{{message}}</h3>
+            <div class="marking">
+                <input type="integer" name="newmark" placeholder="type in the new grade">
+            </div>
+            <div class="request">
+                <input type="submit" value="Remark this grade">
+            </div>
+            <h1>remark reason</h1>
+
+        </form>    
+        <ul>
+            {%for item in requests%}
+            <li>Studentname:{{item['studentname']}}</li>
+            <li>Test: {{item['remarkof']}}</li>
+            <li>Reason: {{item['reason']}}</li>
+            <br />
+            {%endfor%}
+        </ul>
+            
+        </div>
+    
+    </div>
+
+</body>
+</html>

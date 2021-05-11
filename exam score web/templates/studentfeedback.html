@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" href="../static/studentgrade.css">
+    <title>Feedback Page(student version)</title>
+</head>
+<body>
+    <div class="background">
+        <form action="/getback" method="POST">
+            <div class="gback">
+                <input type="submit" value="Back to Main Menu">
+            </div>
+        </form>
+        <form action="/logout" method="POST">
+            <div class="logoutbutton">
+                <input type="submit" value="Log out account">
+            </div>
+        </form>
+        <div class="content">
+            <form action = "/sendfeedback">
+            <h3>Feed back to</h3>
+            <div class="field1">
+                <input type="text" name="instructorname" placeholder="instructor's name">
+            </div>
+            <div class="reason">
+                <textarea name="reasoning" class="input-box" rows="15" cols="80"></textarea>
+            </div>
+            <div class="request">
+                <input type="submit" value="Send Feedback">
+            </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

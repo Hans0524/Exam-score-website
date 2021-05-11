@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/loginstyle.css">
+    <title>Login Page</title>
+        
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <header>Login</header>
+            <form action ="/login" method = "POST">
+                <div class="info"><p>{{congrats}}</p></div>
+                <div class="field1">
+                    <input type="text" name="Account" placeholder="Accout Name">
+                </div>
+                <div class="field1">
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <div class="field1">
+                    <p>{{ message }}</p>
+                </div>
+                
+                <div class="signup">
+                    <a href="/signup">No account? Sign up here.</a>
+                </div>
+                <div class="field2">
+                    <input type="submit" value="Login">
+                </div>
+                    
+            </form>
+
+        </div>
+    </div>
+        
+</body>
+</html>

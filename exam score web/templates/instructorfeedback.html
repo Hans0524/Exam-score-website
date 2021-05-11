@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/studentgrade.css">
+
+    <title>Check Feedback</title>
+</head>
+<body>
+    <div class="background">
+    <form action="/getback" method="POST">
+            <div class="gback">
+                <input type="submit" value="Back to Main Menu">
+            </div>
+        </form>
+        <form action="/logout" method="POST">
+            <div class="logoutbutton">
+                <input type="submit" value="Log out account">
+            </div>
+        </form>
+        <div class="content">
+            <h3> Welcome {{post}}, Please check all your feedback</h1>
+            
+            <ul>
+                {%for item in feedbacks%}
+                <li>content: {{item['feedback']}}<br>
+                </li>{%endfor%}
+            </ul>
+
+            
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

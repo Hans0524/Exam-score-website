@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+
+
+.background{
+    background:url('../static/UTSC-114-Large.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+.content{
+    background-color: rgb(88, 139, 21);
+    padding: 50px;
+    position: absolute;
+    top:10%;
+    left:36%;
+    border-style: double;
+    border-width:5px ;
+}
+.content ul{
+    padding:20px 30px 20px 30px;
+    font-size:x-large;
+    font-weight: lighter;
+    color:wheat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content p{
+    font-size: x-large;
+    color: rgb(65, 25, 25);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding:20px 30px 20px 30px;
+}
+.content h3{
+    font-size:xx-large;
+    color: bisque;
+}
+.request{
+    text-align: center;
+}
+.content input{
+    text-align: center;
+    padding:10px 20px 10px 20px;
+    font-size: large;
+
+}
+.reason{
+    padding:10px 35px 10px 35px;
+}
+
+.selectbox{
+    padding-left:35px;
+}
+
+.field1{
+    margin-left:200px;
+}
+
+.message p{
+    font-size: large;
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    color:orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+h3{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.studentname p{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
