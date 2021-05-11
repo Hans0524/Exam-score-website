@@ -10,10 +10,10 @@ Find account and password by opening assignment3.db in SQL
 
 # Screenshot
 Home page
-https://github.com/Hans0524/Exam-score-website/blob/main/exam%20score%20web/screenshots/Home%20page.png
+![image](https://github.com/Hans0524/Exam-score-website/blob/main/exam%20score%20web/screenshots/Home%20page.png)
 
 Select Menu
-https://github.com/Hans0524/Exam-score-website/blob/main/exam%20score%20web/screenshots/select%20menu.png
+![image](https://github.com/Hans0524/Exam-score-website/blob/main/exam%20score%20web/screenshots/select%20menu.png)
 
 Home page of general information
-https://github.com/Hans0524/Exam-score-website/blob/main/exam%20score%20web/screenshots/General%20information.png
+![image](https://github.com/Hans0524/Exam-score-website/blob/main/exam%20score%20web/screenshots/General%20information.png)
