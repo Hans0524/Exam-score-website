@@ -7,6 +7,7 @@ python app.py
 
 # To log in website  
 Find account and password by opening assignment3.db in SQL
+To log out or return to the main menu, please click two buttons on top left corner
 
 # Screenshot
 Home page
